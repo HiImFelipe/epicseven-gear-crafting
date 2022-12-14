@@ -1,0 +1,104 @@
+{
+  "Arma": {
+    "main_stat": "ATQ",
+    "sub_stat": [
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  },
+  "Capacete": {
+    "main_stat": "HP",
+    "sub_stat": [
+      "ATQ",
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  },
+  "Armadura": {
+    "main_stat": "DEF",
+    "sub_stat": [
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  },
+  "Colar": {
+    "main_stat": [
+      "ATQ",
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "C. CRT",
+      "D. CRT"
+    ],
+    "sub_stat": [
+      "ATQ",
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  },
+  "Anel": {
+    "main_stat": ["ATQ", "ATQ%", "HP", "HP%", "DEF", "DEF%", "EF", "RES"],
+    "sub_stat": [
+      "ATQ",
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  },
+  "Bota": {
+    "main_stat": ["ATQ", "ATQ%", "HP", "HP%", "DEF", "DEF%", "Velocidade"],
+    "sub_stat": [
+      "ATQ",
+      "ATQ%",
+      "HP",
+      "HP%",
+      "DEF",
+      "DEF%",
+      "Velocidade",
+      "C. CRT",
+      "D. CRT",
+      "EF",
+      "RES"
+    ]
+  }
+}

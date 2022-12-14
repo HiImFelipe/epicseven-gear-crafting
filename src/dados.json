@@ -1,0 +1,279 @@
+{
+  "Personagens": [
+    {
+      "Nome": "Belian",
+      "Build": [
+        {
+          "Nome": "Counter Tank",
+          "Sets": ["ContraATQ", "HP", "C. CRT"],
+          "Arma": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Capacete": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Armadura": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "DEF%"]
+          },
+          "Anel": {
+            "main_stat": "HP%",
+            "sub_stat": ["C. CRT", "Velocidade", "D. CRT", "DEF%"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["HP%", "C. CRT", "D. CRT", "DEF%"]
+          }
+        },
+        {
+          "Nome": "Tank Controle Sem Critico",
+          "Sets": ["Velocidade", "HP", "EF"],
+          "Arma": {
+            "sub_stat": ["Velocidade", "HP%", "EF", "RES"]
+          },
+          "Capacete": {
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "EF"]
+          },
+          "Armadura": {
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "EF"]
+          },
+          "Colar": {
+            "main_stat": "HP%",
+            "sub_stat": ["Velocidade", "DEF%", "EF", "RES"]
+          },
+          "Anel": {
+            "main_stat": "HP%",
+            "sub_stat": ["Velocidade", "DEF%", "EF", "RES"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["HP%", "DEF%", "EF", "RES"]
+          }
+        }
+      ]
+    },
+    {
+      "Nome": "Lionheart Cermia",
+      "Build": [
+        {
+          "Nome": "Tank com Penetracao",
+          "Sets": ["Roubo de Vida", "DEF Pen.", "DEF"],
+          "Arma": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "HP%"]
+          },
+          "Capacete": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "DEF%"]
+          },
+          "Armadura": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "DEF%"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["C. CRT", "Velocidade", "DEF%", "HP%"]
+          },
+          "Anel": {
+            "main_stat": "DEF%",
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "HP%"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "HP%"]
+          }
+        },
+        {
+          "Nome": "Rapida de Resist",
+          "Sets": ["Velocidade", "C. CRT", "Resistencia"],
+          "Arma": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "RES"]
+          },
+          "Capacete": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "DEF%"]
+          },
+          "Armadura": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "DEF%"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["Velocidade", "C. CRT", "DEF%", "RES"]
+          },
+          "Anel": {
+            "main_stat": "DEF%",
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "RES"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "RES"]
+          }
+        }
+      ]
+    },
+    {
+      "Nome": "Aria",
+      "Build": [
+        {
+          "Nome": "Bruiser",
+          "Sets": ["Roubo de Vida", "C. CRT", "DEF"],
+          "Arma": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "HP%"]
+          },
+          "Capacete": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "DEF%"]
+          },
+          "Armadura": {
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "DEF%"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["C. CRT", "Velocidade", "DEF%", "HP%"]
+          },
+          "Anel": {
+            "main_stat": "DEF%",
+            "sub_stat": ["C. CRT", "D. CRT", "Velocidade", "HP%"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "HP%"]
+          }
+        },
+        {
+          "Nome": "Counter Lenta",
+          "Sets": ["ContraATQ", "C. CRT", "DEF"],
+          "Arma": {
+            "sub_stat": ["C. CRT", "D. CRT", "HP%", "Velocidade"]
+          },
+          "Capacete": {
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "HP%"]
+          },
+          "Armadura": {
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "HP%"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["C. CRT", "DEF%", "HP%", "RES"]
+          },
+          "Anel": {
+            "main_stat": "DEF%",
+            "sub_stat": ["C. CRT", "D. CRT", "HP%", "RES"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["C. CRT", "D. CRT", "DEF%", "HP%"]
+          }
+        }
+      ]
+    },
+    {
+      "Nome": "Senya",
+      "Build": [
+        {
+          "Nome": "Rapida de Dano",
+          "Sets": ["Velocidade", "HP", "Imunidade"],
+          "Arma": {
+            "sub_stat": ["Velocidade", "ATQ%", "HP%", "EF"]
+          },
+          "Capacete": {
+            "sub_stat": ["Velocidade", "ATQ%", "HP%", "DEF%"]
+          },
+          "Armadura": {
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "EF"]
+          },
+          "Colar": {
+            "main_stat": "ATQ%",
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "EF"]
+          },
+          "Anel": {
+            "main_stat": "ATQ%",
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "EF"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["ATQ%", "HP%", "DEF%", "EF"]
+          }
+        },
+        {
+          "Nome": "Nao Rapida de Lifesteal",
+          "Sets": ["Velocidade", "HP", "Imunidade"],
+          "Arma": {
+            "sub_stat": ["Velocidade", "ATQ%", "HP%", "RES"]
+          },
+          "Capacete": {
+            "sub_stat": ["Velocidade", "ATQ%", "HP%", "DEF%"]
+          },
+          "Armadura": {
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "RES"]
+          },
+          "Colar": {
+            "main_stat": "ATQ%",
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "RES"]
+          },
+          "Anel": {
+            "main_stat": "ATQ%",
+            "sub_stat": ["Velocidade", "HP%", "DEF%", "RES"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["ATQ%", "HP%", "DEF%", "RES"]
+          }
+        }
+      ]
+    },
+    {
+      "Nome": "Ilynav",
+      "Build": [
+        {
+          "Nome": "Counter Tank",
+          "Sets": ["ContraATQ", "HP", "C. CRT"],
+          "Arma": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Capacete": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Armadura": {
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "D. CRT"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["HP%", "C. CRT", "Velocidade", "DEF%"]
+          },
+          "Anel": {
+            "main_stat": "HP%",
+            "sub_stat": ["C. CRT", "Velocidade", "D. CRT", "DEF%"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["HP%", "C. CRT", "D. CRT", "DEF%"]
+          }
+        },
+        {
+          "Nome": "Tank Rapido",
+          "Sets": ["Velocidade", "HP", "C. CRT"],
+          "Arma": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "HP%"]
+          },
+          "Capacete": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "HP%"]
+          },
+          "Armadura": {
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "HP%"]
+          },
+          "Colar": {
+            "main_stat": "D. CRT",
+            "sub_stat": ["Velocidade", "C. CRT", "HP%", "DEF%"]
+          },
+          "Anel": {
+            "main_stat": "HP%",
+            "sub_stat": ["Velocidade", "C. CRT", "D. CRT", "DEF%"]
+          },
+          "Bota": {
+            "main_stat": "Velocidade",
+            "sub_stat": ["C. CRT", "D. CRT", "HP%", "DEF%"]
+          }
+        }
+      ]
+    }
+  ]
+}
