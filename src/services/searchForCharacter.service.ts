@@ -1,11 +1,14 @@
-import { Personagens as personagens } from "./dados.json";
+import { Personagens as personagens } from "../dados.json";
 import {
   Build,
   BuildWithoutAdditionalInfo,
   Item,
   ItemsWithNoFixedMainStat,
   Stat,
-} from "./types";
+} from "../types";
+import { checkForValidMainStat } from "./checkForValidMainStat.service";
+import { checkForValidSubstats } from "./checkForValidSubstats.service";
+import { filterArmorItems } from "./filterArmorItems.service";
 
 const armorItemsWithCustomMainStat = ["colar", "anel", "bota"];
 
@@ -16,51 +19,7 @@ type Params = {
   mainStat?: Stat;
 };
 
-const filterArmorItems = (
-  build: Build
-): Omit<keyof Build, "Name" | "Sets">[] => {
-  const armorItems = Object.keys(build).filter((key) => {
-    if (key === "Sets") return false;
-    if (key === "Name") return false;
-
-    return true;
-  });
-
-  return armorItems as Omit<keyof Build, "Name" | "Sets">[];
-};
-
-const checkForValidSubstats = (
-  armorSubstats: Array<Stat>,
-  customSubstatsProvided: Array<Stat>
-) => {
-  return customSubstatsProvided.every((substat) => {
-    const foundItem = armorSubstats
-      .map((substat) => substat.toLowerCase())
-      .includes(substat.toLowerCase());
-
-    if (!foundItem) {
-      console.log("The build does not have the substat: ", substat);
-    }
-
-    return foundItem;
-  });
-};
-
-const checkForValidMainStat = (
-  armorMainStat: Stat,
-  customMainStatProvided: Stat | undefined
-) => {
-  const foundItem =
-    armorMainStat.toLowerCase() === customMainStatProvided?.toLowerCase();
-
-  if (!foundItem) {
-    console.log("The build does not have the substat: ", armorMainStat);
-  }
-
-  return foundItem;
-};
-
-export const searchForCharacter = ({
+export const searchForCharacters = ({
   armorItem,
   setName,
   substats,
@@ -68,8 +27,8 @@ export const searchForCharacter = ({
 }: Params) => {
   console.log({ personagens });
 
-  const characterFound = personagens.find((personagem) =>
-    personagem.Build.find((build) => {
+  const characterFound = personagens.filter((personagem) =>
+    personagem.Build.filter((build) => {
       if (
         build.Sets.map((set) => set.toLowerCase()).includes(
           setName.toLowerCase()
