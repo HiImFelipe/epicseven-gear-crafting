@@ -12,11 +12,6 @@
 
 Speedrun with [Sahekera Maluco](https://github.com/CondeSaheki/EpicSeven-Gear-Crafting), no winners were announced, we both lost.
 
-Things it uses: 
-- TypeScript;
-- NodeJS;
-- Express;
-
 ## Setup - Requirements
 
 1. Create a folder called `src`
