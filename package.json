@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node build/main.js",
+    "dev": "yarn build && node build/main.js",
     "build": "tsc"
   },
   "devDependencies": {

@@ -27,8 +27,10 @@ export const searchForCharacters = ({
 }: Params) => {
   console.log({ personagens });
 
-  const characterFound = personagens.filter((personagem) =>
-    personagem.Build.filter((build) => {
+  const characterFound = personagens.filter((personagem) => {
+    console.log("Searching for character: ", personagem.Nome);
+
+    const builds = personagem.Build.filter((build) => {
       if (
         build.Sets.map((set) => set.toLowerCase()).includes(
           setName.toLowerCase()
@@ -90,8 +92,18 @@ export const searchForCharacters = ({
       }
 
       return false;
-    })
-  );
+    });
+
+    if (builds.length > 0) {
+      console.log("builds found", builds);
+
+      return true;
+    }
+
+    console.log("Did not find a build with the set: ", setName);
+
+    return false;
+  });
 
   return characterFound;
 };

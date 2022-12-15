@@ -10,21 +10,25 @@ export const searchForCharactersController = (
   console.log(params);
 
   if (typeof params.setName !== "string") {
-    return response.status(400).send("Invalid set name");
+    return response.status(400).json({ message: "Invalid set name" });
   }
 
   if (typeof params.armorItem !== "string") {
-    return response.status(400).send("Invalid armor item");
+    return response.status(400).json({ message: "Invalid armor item" });
   }
 
   if (!Array.isArray(params.substats)) {
-    return response.status(400).send("Invalid substats");
+    return response.status(400).json({ message: "Invalid substats" });
+  }
+
+  if (params.substats.length > 4 || params.substats.length < 3) {
+    return response.status(400).json({ message: "Number of substats invalid" });
   }
 
   if (typeof params.mainStat !== "string" && params.mainStat !== undefined) {
     console.log(typeof params.mainStat);
 
-    return response.status(400).send("Invalid main stat");
+    return response.status(400).json({ message: "Invalid main stat" });
   }
 
   const charactersFound = searchForCharacters({
